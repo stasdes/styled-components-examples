@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyledSpan2 should render correctly 1`] = `
+.c0 {
+  color: green;
+  font-size: 3rem;
+}
+
+.c0:hover {
+  color: red;
+}
+
+<span
+  className="c0"
+  draggable={true}
+/>
+`;
