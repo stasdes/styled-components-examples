@@ -1,13 +1,13 @@
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 /*
 We do not encourage the use of this.
 Try to use it once per app at most, if you must,
-contained in a single file. 
+contained in a single file.
 Only use it for the rare @font-face definition or body styling.
 */
 
-const globalStyle = injectGlobal`
+const GlobalStyle = createGlobalStyle`
 @font-face {
   font-family: 'Shadows Into Light';
   font-style: normal;
@@ -21,4 +21,4 @@ body {
 }
 `
 
-export { globalStyle }
+export default GlobalStyle

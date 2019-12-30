@@ -16,7 +16,7 @@ exports[`StyledComponent should render correctly 1`] = `
   animation: 3s bcCCNc ease-out;
 }
 
-.c0 > .sc-bdVaJa {
+.c0 > .c1 {
   font-size: 2rem;
   color: initial;
 }
