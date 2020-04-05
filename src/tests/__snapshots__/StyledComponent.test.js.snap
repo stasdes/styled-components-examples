@@ -12,11 +12,11 @@ exports[`StyledComponent should render correctly 1`] = `
 }
 
 .c0 > span.count:hover {
-  -webkit-animation: 3s bcCCNc ease-out;
-  animation: 3s bcCCNc ease-out;
+  -webkit-animation: 3s cJoqxJ ease-out;
+  animation: 3s cJoqxJ ease-out;
 }
 
-.c0 > .c1 {
+.c0 > .sc-AxjAm {
   font-size: 2rem;
   color: initial;
 }
