@@ -1,22 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`StyledComponent should render correctly 1`] = `
-.c0 {
+.c1 {
   background: #fff;
   font-size: 2rem;
 }
 
-.c0 > span.count {
+.c1 > span.count {
   margin-right: 10px;
   border: 1px solid green;
 }
 
-.c0 > span.count:hover {
+.c1 > span.count:hover {
   -webkit-animation: 3s cJoqxJ ease-out;
   animation: 3s cJoqxJ ease-out;
 }
 
-.c0 > .sc-AxjAm {
+.c1 > .sc-bdnylx {
   font-size: 2rem;
   color: initial;
 }
@@ -27,25 +27,25 @@ exports[`StyledComponent should render correctly 1`] = `
 }
 
 @media (max-width:990px) {
-  .c0 {
+  .c1 {
     background: #db7093;
   }
 }
 
 @media (max-width:768px) {
-  .c0 {
+  .c1 {
     background: #00ffff;
   }
 }
 
 @media (max-width:500px) {
-  .c0 {
+  .c1 {
     background: #f1e05a;
   }
 }
 
 <div
-  className="c0"
+  className="c0 c1"
   onClick={[Function]}
 >
   <span
